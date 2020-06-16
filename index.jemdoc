@@ -14,15 +14,20 @@ Here is a short [cv_english.pdf CV].
 
 == Contact
 
-- E-mail: raphael \[dot\] berthier \[at\] inria \[dot\] fr
+- E-mail: raphael \[dot\] berthier \[at\] inria \[dot\] fr \n\
+In the perspective of making research more self-critical, I welcome any comments, reviews, critiques, or suggestions on my work.
 - Physical address: INRIA Paris, 4th floor, Office C406, [https://www.google.fr/maps?q=2+rue+Simone+Iff,+75012+Paris&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiHscbX49LbAhUFchQKHRTfDbUQ_AUICigB 2 rue Simone Iff, 75012 Paris].
 
 ~~~
 
 == Publications and Preprints
 
-- R. Berthier, F. Bach, P. Gaillard. *Accelerated Gossip in Networks of Given Dimension using Jacobi Polynomial Iterations*, 2020, published in
-/SIAM Journal on Mathematics of Data Science (SIMODS)/. \n\[[papers/accelerated_gossip_merged.pdf journal], [https://hal.archives-ouvertes.fr/hal-01797016/ hal], [https://arxiv.org/abs/1805.08531 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+- R. Berthier, F. Bach, P. Gaillard. *Tight Nonparametric Convergence Rates for Stochastic Gradient Descent under the Noiseless Linear Model*, 2020, preprint. \n\[[https://hal.archives-ouvertes.fr/hal-02866755 hal], [https://arxiv.org/abs/2006.08212 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\<div class=\"toggle-wrap\"\>
+*Abstract:* In the context of statistical supervised learning, the noiseless linear model assumes that there exists a deterministic linear relation $Y = \langle \theta_*, X \rangle$ between the random output $Y$ and the random feature vector $\Phi(U)$, a potentially non-linear transformation of the inputs $U$. We analyze the convergence of single-pass, fixed step-size stochastic gradient descent on the least-square risk under this model. The convergence of the iterates to the optimum $\theta_*$ and the decay of the generalization error follow polynomial convergence rates with exponents that both depend on the regularities of the optimum $\theta_*$ and of the feature vectors $\Phi(U)$. We interpret our result in the reproducing kernel Hilbert space framework; as a special case, we analyze an online algorithm for estimating a real function on the unit interval from the noiseless observation of its value at randomly sampled points. The convergence depends on the Sobolev smoothness of the function and of a chosen kernel. Finally, we apply our analysis beyond the supervised learning setting to obtain convergence rates for the averaging process (a.k.a. gossip algorithm) on a graph depending on its spectral dimension. 
+\<\/div\>
+
+- R. Berthier, F. Bach, P. Gaillard. *Accelerated Gossip in Networks of Given Dimension using Jacobi Polynomial Iterations*, 2020, /SIAM Journal on Mathematics of Data Science (SIMODS)/. \n\[[papers/accelerated_gossip_merged.pdf journal], [https://hal.archives-ouvertes.fr/hal-01797016/ hal], [https://arxiv.org/abs/1805.08531 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
 *Abstract:* Consider a network of agents connected by communication links, where each agent holds a real value. The gossip problem consists in estimating the average of the values diffused in the network in a distributed manner. We develop a method solving the gossip problem that depends only on the spectral dimension of the network, that is, in the communication network set-up, the dimension of the space in which the agents live. This contrasts with previous work that required the spectral gap of the network as a parameter, or suffered from slow mixing. Our method shows an important improvement over existing algorithms in the non-asymptotic regime, i.e., when the values are far from being fully mixed in the network. Our approach stems from a polynomial-based point of view on gossip algorithms, as well as an approximation of the spectral measure of the graphs with a Jacobi measure. We show the power of the approach with simulations on various graphs, and with performance guarantees on graphs of known spectral dimension, such as grids and random percolation bonds. An extension of this work to distributed Laplacian solvers is discussed. As a side result, we also use the polynomial-based point of view to show the convergence of the message passing algorithm for gossip of Moallemi \& Van Roy on regular graphs. The explicit computation of the rate of the convergence shows that message passing has a slow rate of convergence on graphs with small spectral gap. 
 \<\/div\>

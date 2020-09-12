@@ -3,12 +3,12 @@
 = Raphaël Berthier
 
 ~~~
-{}{img_left}{photo2.jpg}{}{170px}{}{}
+{}{img_left}{photo2.jpg}{}{350px}{}{}
 
 == Briefly
-I am a second-year Ph.D. student under the supervision of [http://www.di.ens.fr/~fbach/ Francis Bach] and [http://pierre.gaillard.me/ Pierre Gaillard]. I work in the [https://www.di.ens.fr/sierra/ SIERRA team] in Paris, which is a joint team between [https://www.inria.fr/centre/paris INRIA Paris], [https://www.di.ens.fr/ ENS Paris] and [http://www.cnrs.fr/fr/page-daccueil CNRS].
+I am a last-year Ph.D. student under the supervision of [http://www.di.ens.fr/~fbach/ Francis Bach] and [http://pierre.gaillard.me/ Pierre Gaillard]. I work in the [https://www.di.ens.fr/sierra/ SIERRA team] in Paris, which is a joint team between [https://www.inria.fr/centre/paris INRIA Paris], [https://www.di.ens.fr/ ENS Paris] and [http://www.cnrs.fr/fr/page-daccueil CNRS].
 
-My research interests lie mainly within statistics, optimization and probability theory. More precisely, my current work focuses on developing polynomial-based iterative methods to accelerate the sharing of information in decentralized networks, using inspiration coming from numerical analysis. Before that, I worked under the supervision of [https://web.stanford.edu/~montanar/ Andrea Montanari] to develop a rigorous analysis of the Approximate Message Passing algorithms in the case of non-separable denoisers.
+My research interests lie mainly within statistics, optimization and probability theory. More precisely, my current work studies the stochastic gradient descent algorithm for the interpolation of a function and the gossip algorithm for averaging values in a communication network. Before that, I worked under the supervision of [https://web.stanford.edu/~montanar/ Andrea Montanari] to develop a rigorous analysis of the Approximate Message Passing algorithms in the case of non-separable denoisers.
 
 Here is a short [cv_english.pdf CV].
 

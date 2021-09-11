@@ -8,7 +8,7 @@
 == Briefly
 I am a last-year Ph.D. student under the supervision of [http://www.di.ens.fr/~fbach/ Francis Bach] and [http://pierre.gaillard.me/ Pierre Gaillard]. I work in the [https://www.di.ens.fr/sierra/ SIERRA team] in Paris, which is a joint team between [https://www.inria.fr/centre/paris INRIA Paris], [https://www.di.ens.fr/ ENS Paris] and [http://www.cnrs.fr/fr/page-daccueil CNRS].
 
-My research interests lie mainly within statistics, optimization and probability theory. More precisely, my current work studies the stochastic gradient descent algorithm for the interpolation of a function and the gossip algorithm for averaging values in a communication network. Before that, I worked under the supervision of [https://web.stanford.edu/~montanar/ Andrea Montanari] to develop a rigorous analysis of the Approximate Message Passing algorithms in the case of non-separable denoisers.
+My PhD thesis is a parallel study of optimization and gossip algorithms. The best way to learn about this is to look at the summary at the beginning of the [thesis.pdf manuscript]. Before that, I worked under the supervision of [https://web.stanford.edu/~montanar/ Andrea Montanari] to develop a rigorous analysis of the Approximate Message Passing algorithms in the case of non-separable denoisers.
 
 Here is a short [cv_english.pdf CV].
 
@@ -19,6 +19,7 @@ In the perspective of making research more self-critical, I welcome any comments
 - Physical address: INRIA Paris, 4th floor, Office C406, [https://www.google.fr/maps?q=2+rue+Simone+Iff,+75012+Paris&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiHscbX49LbAhUFchQKHRTfDbUQ_AUICigB 2 rue Simone Iff, 75012 Paris].
 
 ~~~
+
 
 == Publications and Preprints
 
@@ -42,3 +43,7 @@ In the perspective of making research more self-critical, I welcome any comments
 *Abstract:* Given a high-dimensional data matrix $A \in {\rm I\!R}^{n \times m}$, Approximate Message Passing (AMP) algorithms construct sequences of vectors $u^t \in {\rm I\!R}^n$, $v^t \in {\rm I\!R}^m$, indexed by $t \in \{0,1,2,\dots \}$ by iteratively applying $A$ or $A^T$, and suitable non-linear functions, which depend on the specific application. Special instances of this approach have been developed --among other applications-- for compressed sensing reconstruction, robust regression, Bayesian estimation, low-rank matrix recovery, phase retrieval, and community detection in graphs. For certain classes of random matrices $A$, AMP admits an asymptotically exact description in the high-dimensional limit $m,n\to \infty$, which goes under the name of `state evolution.'
 Earlier work established state evolution for separable non-linearities (under certain regularity conditions). Nevertheless, empirical work demonstrated several important applications that require non-separable functions. In this paper we generalize state evolution to Lipschitz continuous non-separable nonlinearities, for Gaussian matrices $A$. Our proof makes use of Bolthausen's conditioning technique along with several approximation arguments. In particular, we introduce a modified algorithm (called LAMP for Long AMP) which is of independent interest. 
 \<\/div\>
+
+== PhD thesis
+
+- R. Berthier. *Analysis and Acceleration of Gradient Descents and Gossip Algorithms*, 2021, [thesis.pdf manuscript].

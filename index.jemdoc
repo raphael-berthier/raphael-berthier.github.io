@@ -6,24 +6,30 @@
 {}{img_left}{photo2.jpg}{}{350px}{}{}
 
 == Briefly
-I am a last-year PhD student under the supervision of [http://www.di.ens.fr/~fbach/ Francis Bach] and [http://pierre.gaillard.me/ Pierre Gaillard]. I work in the [https://www.di.ens.fr/sierra/ SIERRA team] in Paris, which is a joint team between [https://www.inria.fr/centre/paris INRIA Paris], [https://www.di.ens.fr/ ENS Paris] and [http://www.cnrs.fr/fr/page-daccueil CNRS].
 
-My PhD thesis is a parallel study of optimization and gossip algorithms. The best way to learn about this is to look at the summary at the beginning of the [thesis.pdf manuscript]. Before that, I worked under the supervision of [https://web.stanford.edu/~montanar/ Andrea Montanari] to develop a rigorous analysis of the Approximate Message Passing algorithms in the case of non-separable denoisers.
+I am a postdoc under the supervision of [https://people.epfl.ch/emmanuel.abbe Emmanuel Abbe] and [https://web.stanford.edu/~montanar/ Andrea Montanari]. 
+
+Before that, I was a PhD student under the supervision of [http://www.di.ens.fr/~fbach/ Francis Bach] and [http://pierre.gaillard.me/ Pierre Gaillard]. My PhD thesis is a parallel study of optimization and gossip algorithms. The best way to learn about this is to look at the summary at the beginning of the [thesis.pdf manuscript]. 
 
 Here is a short [cv_english.pdf CV].
 
 == Contact
 
-- E-mail: raphael \[dot\] berthier \[at\] inria \[dot\] fr \n\
+- E-mail: raphael \[dot\] berthier \[at\] epfl \[dot\] ch \n\
 In the perspective of making research more self-critical, I welcome any comments, reviews, critiques, or suggestions on my work.
-- Physical address: INRIA Paris, 4th floor, Office C406, [https://www.google.fr/maps?q=2+rue+Simone+Iff,+75012+Paris&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiHscbX49LbAhUFchQKHRTfDbUQ_AUICigB 2 rue Simone Iff, 75012 Paris].
+- Physical address: [https://plan.epfl.ch/?room=%3DMA%20C2%20553&dim_floor=2&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2533276&map_y=1152345&map_zoom=10 EPFL, MA C2 553 (batiment MA), Lausanne, Switzerland].
 
 ~~~
 
 
 == Publications and Preprints
 
-- M. Even, R. Berthier, F. Bach, N. Flammarion, P. Gaillard, H. Hendrikx, L. Massoulié, A. Taylor. *A Continuized View on Nesterov Acceleration for Stochastic Gradient Descent and Randomized Gossip*, 2021, preprint. \n\[[https://arxiv.org/abs/2106.07644 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+- C. Gerbelot, R. Berthier. *Graph-based Approximate Message Passing Iterations*, 2021, preprint. \n\[[https://arxiv.org/abs/2109.11905 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\<div class=\"toggle-wrap\"\>
+*Abstract:* Approximate-message passing (AMP) algorithms have become an important element of high-dimensional statistical inference, mostly due to their adaptability and concentration properties, the state evolution (SE) equations. This is demonstrated by the growing number of new iterations proposed for increasingly complex problems, ranging from multi-layer inference to low-rank matrix estimation with elaborate priors. In this paper, we address the following questions: is there a structure underlying all AMP iterations that unifies them in a common framework? Can we use such a structure to give a modular proof of state evolution equations, adaptable to new AMP iterations without reproducing each time the full argument ? We propose an answer to both questions, showing that AMP instances can be generically indexed by an oriented graph. This enables to give a unified interpretation of these iterations, independent from the problem they solve, and a way of composing them arbitrarily. We then show that all AMP iterations indexed by such a graph admit rigorous SE equations, extending the reach of previous proofs, and proving a number of recent heuristic derivations of those equations. Our proof naturally includes non-separable functions and we show how existing refinements, such as spatial coupling or matrix-valued variables, can be combined with our framework. 
+\<\/div\>
+
+- M. Even, R. Berthier, F. Bach, N. Flammarion, P. Gaillard, H. Hendrikx, L. Massoulié, A. Taylor. *A Continuized View on Nesterov Acceleration for Stochastic Gradient Descent and Randomized Gossip*, 2021, accepted for publication at NeurIPS 2021 (oral). \n\[[https://arxiv.org/abs/2106.07644 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
 *Abstract:* We introduce the continuized Nesterov acceleration, a close variant of Nesterov acceleration whose variables are indexed by a continuous time parameter. The two variables continuously mix following a linear ordinary differential equation and take gradient steps at random times. This continuized variant benefits from the best of the continuous and the discrete frameworks: as a continuous process, one can use differential calculus to analyze convergence and obtain analytical expressions for the parameters; and a discretization of the continuized process can be computed exactly with convergence rates similar to those of Nesterov original acceleration. We show that the discretization has the same structure as Nesterov acceleration, but with random parameters. We provide continuized Nesterov acceleration under deterministic as well as stochastic gradients, with either additive or multiplicative noise. Finally, using our continuized framework and expressing the gossip averaging problem as the stochastic minimization of a certain energy function, we provide the first rigorous acceleration of asynchronous gossip algorithms. 
 \<\/div\>

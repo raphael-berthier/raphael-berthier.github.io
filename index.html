@@ -21,8 +21,8 @@
 <table class="imgtable"><tr><td>
 <img src="photo2.jpg" alt="" width="350px" />&nbsp;</td>
 <td align="left"><h2>Briefly</h2>
-<p>I am a postdoc under the supervision of <a href="https://people.epfl.ch/emmanuel.abbe">Emmanuel Abbe</a> and <a href="https://web.stanford.edu/~montanar/">Andrea Montanari</a>. </p>
-<p>Before that, I was a PhD student under the supervision of <a href="http://www.di.ens.fr/~fbach/">Francis Bach</a> and <a href="http://pierre.gaillard.me/">Pierre Gaillard</a>. My PhD thesis is a parallel study of optimization and gossip algorithms. The best way to learn about this is to look at the summary at the beginning of the <a href="thesis.pdf">manuscript</a>. </p>
+<p>I am a postdoc under the supervision of <a href="https://people.epfl.ch/emmanuel.abbe">Emmanuel Abbe</a> and <a href="https://web.stanford.edu/~montanar/">Andrea Montanari</a>. I am currently working on non-convex optimization and the theory of neural networks. </p>
+<p>Before that, I was a PhD student under the supervision of <a href="http://www.di.ens.fr/~fbach/">Francis Bach</a> and <a href="http://pierre.gaillard.me/">Pierre Gaillard</a>. My PhD thesis is a parallel study of convex optimization and gossip algorithms. The best way to learn about this is to look at the summary at the beginning of the <a href="thesis.pdf">manuscript</a>. </p>
 <p>Here is a short <a href="cv_english.pdf">CV</a>.</p>
 <h2>Contact</h2>
 <ul>
@@ -42,7 +42,7 @@ In the perspective of making research more self-critical, I welcome any comments
 </li>
 </ul>
 <ul>
-<li><p>R. Berthier, M. B. Li. <b>Acceleration of Gossip Algorithms through the Euler-Poisson-Darboux Equation</b>, 2022, accepted for publication in <i>the IMA Journal of Applied Mathematics</i>. <br />[<a href="https://arxiv.org/abs/2202.10742">arXiv</a>] <span class="toggle-trigger">[Show Abstract]<span> 
+<li><p>R. Berthier, M. B. Li. <b>Acceleration of Gossip Algorithms through the Euler-Poisson-Darboux Equation</b>, 2022, <i>the IMA Journal of Applied Mathematics</i>. <br />[<a href="https://academic.oup.com/imamat/advance-article-abstract/doi/10.1093/imamat/hxac029/6775269?utm_source=advanceaccess&amp;utm_campaign=imamat&amp;utm_medium=email">journal</a>, <a href="https://arxiv.org/abs/2202.10742">arXiv</a>] <span class="toggle-trigger">[Show Abstract]<span> 
 <div class="toggle-wrap">
 <b>Abstract:</b> Gossip algorithms and their accelerated versions have been studied exclusively in discrete time on graphs. In this work, we take a different approach, and consider the scaling limit of gossip algorithms in both large graphs and large number of iterations. These limits lead to well-known partial differential equations (PDEs) with insightful properties. On lattices, we prove that the non-accelerated gossip algorithm of Boyd et al. [2006] converges to the heat equation, and the accelerated Jacobi polynomial iteration of Berthier et al. [2020] converges to the Euler-Poisson-Darboux (EPD) equation - a damped wave equation. Remarkably, with appropriate parameters, the fundamental solution of the EPD equation has the ideal gossip behaviour: a uniform density over an ellipsoid, whose radius increases at a rate proportional to t - the fastest possible rate for locally communicating gossip algorithms. This is in contrast with the heat equation where the density spreads on a typical scale of <img class="eq" src="eqs/2909845988863612064-130.png" alt="sqrt{t}" style="vertical-align: -4px" />. Additionally, we provide simulations demonstrating that the gossip algorithms are accurately approximated by their limiting PDEs. 
 </div></p>
@@ -56,7 +56,7 @@ In the perspective of making research more self-critical, I welcome any comments
 </li>
 </ul>
 <ul>
-<li><p>M. Even, R. Berthier, F. Bach, N. Flammarion, P. Gaillard, H. Hendrikx, L. Massoulié, A. Taylor. <b>A Continuized View on Nesterov Acceleration for Stochastic Gradient Descent and Randomized Gossip</b>, 2021, oustanding paper award and oral at <i>Advances in Neural Information Processing Systems (NeurIPS)</i>. <br />[<a href="https://proceedings.neurips.cc/paper/2021/hash/ec26fc2eb2b75aece19c70392dc744c2-Abstract.html">conference version</a>, <a href="https://arxiv.org/abs/2106.07644">arXiv</a>] <span class="toggle-trigger">[Show Abstract]<span> 
+<li><p>M. Even, R. Berthier, F. Bach, N. Flammarion, P. Gaillard, H. Hendrikx, L. Massoulié, A. Taylor. <b>A Continuized View on Nesterov Acceleration for Stochastic Gradient Descent and Randomized Gossip</b>, 2021, oustanding paper award and oral at <i>Advances in Neural Information Processing Systems (NeurIPS)</i>. <br />[<a href="https://proceedings.neurips.cc/paper/2021/hash/ec26fc2eb2b75aece19c70392dc744c2-Abstract.html">conference version</a>, <a href="https://arxiv.org/abs/2106.07644">arXiv</a>, <a href="https://francisbach.com/continuized-acceleration/">an introductory blog post</a>] <span class="toggle-trigger">[Show Abstract]<span> 
 <div class="toggle-wrap">
 <b>Abstract:</b> We introduce the continuized Nesterov acceleration, a close variant of Nesterov acceleration whose variables are indexed by a continuous time parameter. The two variables continuously mix following a linear ordinary differential equation and take gradient steps at random times. This continuized variant benefits from the best of the continuous and the discrete frameworks: as a continuous process, one can use differential calculus to analyze convergence and obtain analytical expressions for the parameters; and a discretization of the continuized process can be computed exactly with convergence rates similar to those of Nesterov original acceleration. We show that the discretization has the same structure as Nesterov acceleration, but with random parameters. We provide continuized Nesterov acceleration under deterministic as well as stochastic gradients, with either additive or multiplicative noise. Finally, using our continuized framework and expressing the gossip averaging problem as the stochastic minimization of a certain energy function, we provide the first rigorous acceleration of asynchronous gossip algorithms. 
 </div></p>
@@ -91,7 +91,7 @@ Earlier work established state evolution for separable non-linearities (under ce
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2022-10-13 10:31:33 CEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2022-12-16 10:20:14 CET, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>

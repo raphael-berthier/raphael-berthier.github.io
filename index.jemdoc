@@ -24,10 +24,12 @@ In the perspective of making research more self-critical, I welcome any comments
 
 == Publications and Preprints
 
-- P. Marion, R. Berthier. *Leveraging the two timescale regime to demonstrate convergence of neural networks*, 2023, preprint. \n\[[http://arxiv.org/abs/2304.09576 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+- P. Marion, R. Berthier. *Leveraging the two timescale regime to demonstrate convergence of neural networks*, 2023, Advances in Neural Information Processing Systems (NeurIPS). \n\[[http://arxiv.org/abs/2304.09576 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
 *Abstract:* We study the training dynamics of shallow neural networks, in a two-timescale regime in which the stepsizes for the inner layer are much smaller than those for the outer layer. In this regime, we prove convergence of the gradient flow to a global optimum of the non-convex optimization problem in a simple univariate setting. The number of neurons need not be asymptotically large for our result to hold, distinguishing our result from popular recent approaches such as the neural tangent kernel or mean-field regimes. Experimental illustration is provided, showing that the stochastic gradient descent behaves according to our description of the gradient flow and thus converges to a global optimum in the two-timescale regime, but can fail outside of this regime. 
 \<\/div\>
+
+Due to the unsustainable impact of flying, Pierre and I will attend NeurIPS 2023 only remotely. However, we are open to presenting our work in places within train distance. This [https://docs.google.com/document/d/1aOd_50xParMUNmvvvCrmUebmUTlx2yQywLUSeYqEbIA/edit statement] by my co-author Pierre gives details on the motivation for this decision and first thoughts on sustainable alternatives to international conferences. 
 
 - R. Berthier, A. Montanari, K. Zhou. *Learning time-scales in two-layers neural networks*, 2023, preprint. \n\[[https://arxiv.org/abs/2303.00055 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>

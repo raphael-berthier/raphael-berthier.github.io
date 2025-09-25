@@ -35,8 +35,16 @@
 </td></tr></table>
 <h2>Publications and Preprints</h2>
 <ul>
-<li><p>P. Marion, R. Berthier, G. Biau, C. Boyer. <b>Attention layers provably solve single-location regression</b>, 2025, accepted for publication at the International Conference on Learning Representations (ICLR). 
-<br />[<a href="https://cnrs.hal.science/LPSM/hal-04720799v1">hal</a>, <a href="https://arxiv.org/abs/2410.01537">arXiv</a>] <span class="toggle-trigger">[Show Abstract]<span> 
+<li><p>R. Berthier. <b>Diagonal linear networks and the lasso regularization path</b>, 2025, preprint.
+<br />[<a href="https://arxiv.org/abs/2509.18766">arXiv</a>] <span class="toggle-trigger">[Show Abstract]<span> 
+<div class="toggle-wrap">
+<b>Abstract:</b> Diagonal linear networks are neural networks with linear activation and diagonal weight matrices. Their theoretical interest is that their implicit regularization can be rigorously analyzed: from a small initialization, the training of diagonal linear networks converges to the linear predictor with minimal 1-norm among minimizers of the training loss. In this paper, we deepen this analysis showing that the full training trajectory of diagonal linear networks is closely related to the lasso regularization path. In this connection, the training time plays the role of an inverse regularization parameter. Both rigorous results and simulations are provided to illustrate this conclusion. Under a monotonicity assumption on the lasso regularization path, the connection is exact while in the general case, we show an approximate connection. 
+</div></p>
+</li>
+</ul>
+<ul>
+<li><p>P. Marion, R. Berthier, G. Biau, C. Boyer. <b>Attention layers provably solve single-location regression</b>, 2025, <i>International Conference on Learning Representations (ICLR)</i>. 
+<br />[<a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/dc2c9cd7cb12592856d82dc28ebaab94-Abstract-Conference.html">conference version</a>, <a href="https://cnrs.hal.science/LPSM/hal-04720799v1">hal</a>, <a href="https://arxiv.org/abs/2410.01537">arXiv</a>] <span class="toggle-trigger">[Show Abstract]<span> 
 <div class="toggle-wrap">
 <b>Abstract:</b> Attention-based models, such as Transformer, excel across various tasks but lack a comprehensive theoretical understanding, especially regarding token-wise sparsity and internal linear representations. To address this gap, we introduce the single-location regression task, where only one token in a sequence determines the output, and its position is a latent random variable, retrievable via a linear projection of the input. To solve this task, we propose a dedicated predictor, which turns out to be a simplified version of a non-linear self-attention layer. We study its theoretical properties, by showing its asymptotic Bayes optimality and analyzing its training dynamics. In particular, despite the non-convex nature of the problem, the predictor effectively learns the underlying structure. This work highlights the capacity of attention mechanisms to handle sparse token information and internal linear structures. 
 </div></p>
@@ -57,7 +65,7 @@
 </li>
 </ul>
 <ul>
-<li><p>R. Berthier, A. Montanari, K. Zhou. <b>Learning time-scales in two-layers neural networks</b>, 2023, accepted for publication in <i>Foundations of Computational Mathematics</i>. <br />[<a href="https://arxiv.org/abs/2303.00055">arXiv</a>] <span class="toggle-trigger">[Show Abstract]<span> 
+<li><p>R. Berthier, A. Montanari, K. Zhou. <b>Learning time-scales in two-layers neural networks</b>, 2023, <i>Foundations of Computational Mathematics (FoCM)</i>. <br />[<a href="https://link.springer.com/article/10.1007/s10208-024-09664-9">journal</a>, <a href="https://arxiv.org/abs/2303.00055">arXiv</a>] <span class="toggle-trigger">[Show Abstract]<span> 
 <div class="toggle-wrap">
 <b>Abstract:</b> Gradient-based learning in multi-layer neural networks displays a number of striking features. In particular, the decrease rate of empirical risk is non-monotone even after averaging over large batches. Long plateaus in which one observes barely any progress alternate with intervals of rapid decrease. These successive phases of learning often take place on very different time scales. Finally, models learnt in an early phase are typically &lsquo;simpler&rsquo; or &lsquo;easier to learn&rsquo; although in a way that is difficult to formalize.
 Although theoretical explanations of these phenomena have been put forward, each of them captures at best certain specific regimes. In this paper, we study the gradient flow dynamics of a wide two-layer neural network in high-dimension, when data are distributed according to a single-index model (i.e., the target function depends on a one-dimensional projection of the covariates). Based on a mixture of new rigorous results, non-rigorous mathematical derivations, and numerical simulations, we propose a scenario for the learning dynamics in this setting. In particular, the proposed evolution exhibits separation of timescales and intermittency. These behaviors arise naturally because the population gradient flow can be recast as a singularly perturbed dynamical system. 
@@ -121,7 +129,7 @@ Earlier work established state evolution for separable non-linearities (under ce
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2025-02-18 20:29:26 CET, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2025-09-25 11:15:20 CEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>

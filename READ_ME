@@ -3,6 +3,8 @@ http://jemdoc.jaboc.net/index.html
 
 To compile the html file, one must run 
 python jemdoc.py -c abstract.panel index.jemdoc
+or 
+python2 jemdoc.py -c abstract.panel index.jemdoc
 
 To use github pages, an easy tutorial 
 https://learntocodewith.me/tutorials/github-pages/

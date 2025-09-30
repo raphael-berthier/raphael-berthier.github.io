@@ -5,6 +5,8 @@
 ~~~
 {}{img_left}{photo3.jpeg}{}{350px}{}{}
 
+*I am hiring! If you are considering a PhD or postdoc under my supervision, feel free to reach out.*
+
 == Briefly
 
 I am a tenure-track researcher (chaire de professeur junior) at Inria Sorbonne Université. 
@@ -26,7 +28,7 @@ Here is a short [cv_english.pdf CV].
 == Publications and Preprints
 
 - R. Berthier. *Diagonal linear networks and the lasso regularization path*, 2025, preprint.
-\n\[[https://arxiv.org/abs/2509.18766 arXiv]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\n\[[https://arxiv.org/abs/2509.18766 arXiv], [https://hal.science/hal-05282524 hal]\] \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
 *Abstract:* Diagonal linear networks are neural networks with linear activation and diagonal weight matrices. Their theoretical interest is that their implicit regularization can be rigorously analyzed: from a small initialization, the training of diagonal linear networks converges to the linear predictor with minimal 1-norm among minimizers of the training loss. In this paper, we deepen this analysis showing that the full training trajectory of diagonal linear networks is closely related to the lasso regularization path. In this connection, the training time plays the role of an inverse regularization parameter. Both rigorous results and simulations are provided to illustrate this conclusion. Under a monotonicity assumption on the lasso regularization path, the connection is exact while in the general case, we show an approximate connection. 
 \<\/div\>
